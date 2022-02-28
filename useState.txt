@@ -11,9 +11,11 @@ function App() {
   let [방아쇠] = useState('깃허브에 올라갈 내용')
   let [아이스아메리카노] = useState('아메리카노가 땡긴다')
   let [아이폰] = useState('졸려 언능 공부 마치고 잠들고 싶다')
-    
+  let [따봉, 따봉변경] = useState(0); 
+  
   let posts = '소연이 리액트 공부 꿀팁'
   
+
   return (
     <div className="App">
       <div className="black-nav">
@@ -21,7 +23,7 @@ function App() {
         </div>  
         
         <div className="list">
-          <h3>{글제목}</h3>
+          <h3>{글제목}<span onClick={ ()=>{따봉변경(따봉+1)}}> 👍 </span>{따봉}</h3>
           <p>2월 27일 발행</p>
           <hr/>
         </div>
