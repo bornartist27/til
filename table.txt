@@ -1,0 +1,131 @@
+<html lang="ko">
+
+<head></head>
+<body>
+<style>
+li{list-style:none;}
+#id{
+    width: "70px";
+    height: "20px";
+    background: pink; 
+    border: 0.5px solid grey;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+#password{
+    width: "70px";
+    height: "20px";
+    background: pink; 
+    border: 0.5px solid grey;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+div > span{
+    background: purple; 
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin:5px;
+}
+div > span:first-child{
+    background: violet;
+}
+
+div > span:last-child{
+    background:chocolate;
+}
+
+
+table th{
+    padding:10px; 
+    margin: 10px;
+    border: 1px solid grey;
+
+}
+
+table td{
+    padding:10px; 
+    margin: 10px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+table{
+    border: 1px solid grey;
+}
+*{
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+</style>
+<ul>
+<li><input type="text" id="id"></li>
+<li><input type="submit"></li>
+<br/>
+<li><input type="password" id="password"></li>
+<li><input type="submit"></li>
+<br/>
+<li><label><input type="radio" name="BTS" id="RM">RM</label></li>
+<li><label><input type="radio" name="BTS" id="JIN">JIN</label></li>
+<li><label><input type="radio" name="BTS" id="SUGA">SUGA</label></li>
+<li><label><input type="radio" name="BTS" id="JHOPE">JHOPE</label></lavel></li>
+<li><label><input type="radio" name="BTS" id="JIMIN">JIMIN</label></li>
+<li><label><input type="radio" name="BTS" id="V">V</label></li>
+<li><label><input type="radio" name="BTS" id="JUNGKOOK">JUNGKOOK</label></lavel></li>
+<br/>
+<li><label><input type="checkbox" name="office" id="desk">Desk</label></li>
+<li><label><input type="checkbox" name="office" id="MACBOOK">MACBOOK</label></li>
+<li><label><input type="checkbox" name="office" id="CALENDAR">CALENDAR</label></li>
+<li><label><input type="checkbox" name="office" id="CHAIR">CHAIR</label></li>
+<li><label><input type="checkbox" name="office" id="MIRROR">MIRROR</label></li>
+<br/>
+
+</ul>
+
+<div>
+<span>june</span>
+<span>design</span>
+<span>tool</span>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<table>
+    
+    <thead>
+        <tr>
+        <th>이름</th>
+        <th>성별</th>
+        <th>나이</th>
+        <th>키</th>
+        </tr>
+
+        <tr>
+            <td>소연</td>
+            <td>female</td>
+            <td>33</td>
+            <td>167</td>
+        </tr>
+
+<tr>
+    <td>중현</td>
+    <td>male</td>
+    <td>33</td>
+    <td>180</td>
+</tr>
+
+</thead>
+
+
+</table>
+
+</div>
+
+</body>
+</html>
